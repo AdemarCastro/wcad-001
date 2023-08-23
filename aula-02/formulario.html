@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 02 / Aula 02 - Formulario</title>
+
+  <style>
+    input {
+      margin-bottom: 0.3rem;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Formulário de Contato</h1>
+  
+  <form>
+
+    <fieldset>
+      <legend>Dados Básicos</legend>
+      Nome: <input type="text" name="nome" id="nome-usuario" placeholder="Insira seu nome"><br>
+      Email: <input type="email" name="email" id="email-usuario" placeholder="Insira seu email">
+    </fieldset>
+
+    <fieldset>
+      <legend>Dados Complementares</legend>
+      Cor favorita: <input type="color" name="cor-favorita" id="cor-favorita"><br>
+      Data de nascimento: <input type="date" name="data-nascimento" id="data-nascimento"><br>
+      Ano de entrada em seu curso do IComp: <input type="number" min="1980" max="2023" step="1" value="2023" id="ano-entrada"><br>
+      Nota para este site: <input type="range" min="0" max="10" value="0" id="nota">
+    </fieldset>
+  </form>
+
+</body>
+</html>
